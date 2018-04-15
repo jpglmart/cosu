@@ -1,6 +1,11 @@
 # Lock task mode simple app
 Corporate-Owned Single-Use (COSU) app, Android 5.1 (Lollipop) compatible
 
+Run app on Android Studio and type following command on terminal:
+```
+adb shell dpm set-device-owner com.google.codelabs.cosu/.DeviceAdminReceiver
+```
+
 ## License
 Copyright 2017 The Android Open Source Project, Inc.
 
